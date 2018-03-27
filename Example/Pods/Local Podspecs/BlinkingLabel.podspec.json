@@ -1,8 +1,8 @@
 {
   "name": "BlinkingLabel",
   "version": "0.1.0",
-  "summary": "A short description of BlinkingLabel.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "This is a blinking label pod.",
+  "description": "This pod is use to create a label that blinks. It will blink blink and blink.then stop blinking.",
   "homepage": "https://github.com/CodeKunal/BlinkingLabel",
   "license": {
     "type": "MIT",
@@ -15,6 +15,7 @@
     "git": "https://github.com/CodeKunal/BlinkingLabel.git",
     "tag": "0.1.0"
   },
+  "swift_version": "3.2",
   "platforms": {
     "ios": "8.0"
   },
