@@ -1,5 +1,5 @@
 //
-//  BlinkingLabel.Swift
+//  BlinkingLabel.swift
 //  BlinkingLabel
 //
 //  Created by Kunal arora on 27/03/18.
@@ -8,11 +8,16 @@
 import Foundation
 public class BlinkingLabel : UILabel {
     public func startBlinking() {
-        let options : UIViewAnimationOptions = .Repeat | .Autoreverse
-        UIView.animateWithDuration(0.25, delay:0.0, options:options, animations: {
+//        let options : UIViewAnimationOptions = .repeat | .autoreverse
+//        UIView.animateWithDuration(0.25, delay:0.0, options:options, animations: {
+//            self.alpha = 0
+//        }, completion: nil)
+        
+        UIView.animate(withDuration: 0.25, animations: {
             self.alpha = 0
         }, completion: nil)
     }
+    
     
     public func stopBlinking() {
         alpha = 1

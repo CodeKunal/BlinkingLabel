@@ -1,5 +1,5 @@
 import XCTest
-import BlinkingLabel
+//import BlinkingLabel
 
 class Tests: XCTestCase {
     

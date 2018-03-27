@@ -2,15 +2,15 @@ PODS:
   - BlinkingLabel (0.1.0)
 
 DEPENDENCIES:
-  - BlinkingLabel (from `../`)
+  - BlinkingLabel (from `/Users/kunal/Projects/BlinkingLabel`)
 
 EXTERNAL SOURCES:
   BlinkingLabel:
-    :path: ../
+    :path: /Users/kunal/Projects/BlinkingLabel
 
 SPEC CHECKSUMS:
   BlinkingLabel: d5af1de33106bda5865d620087fcfefe8afd3eae
 
-PODFILE CHECKSUM: 5c21ac587a990948bf63f36da90541856721e8b3
+PODFILE CHECKSUM: 4f678622fcdcfeaa90f415668b6683eb886eb502
 
 COCOAPODS: 1.4.0

@@ -1,11 +1,7 @@
+platform :ios, '9.0'
 use_frameworks!
 
 target 'BlinkingLabel_Example' do
-  pod 'BlinkingLabel', :path => '../'
+  pod 'BlinkingLabel', :path => '/Users/kunal/Projects/BlinkingLabel'
 
-  target 'BlinkingLabel_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
